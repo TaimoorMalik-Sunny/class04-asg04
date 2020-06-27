@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className={`Box ${isMorning ? 'dayLight':''}`}>
-      <h1>Have a Good {isMorning ? 'Evennig':'Night'}</h1>
+      <h1>Have a Good {isMorning ? 'Morning':'Night'}</h1>
 
       <Message counter={count}/>
       <br/>
